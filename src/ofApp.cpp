@@ -2,7 +2,8 @@
 #include <fstream>
 
 
-void ofApp::setup(){
+void ofApp::setup()
+{ cout<<"Hello from setup";
      auto name = std::getenv("myfile");
      auto filename = name? name: "input.jpg";
 
