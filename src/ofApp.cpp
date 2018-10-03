@@ -4,7 +4,7 @@
 
 void ofApp::setup()
 { 
-	cout<<"Hello from setup";
+	cout<<"Hello from setup ";
      auto name = std::getenv("myfile");
      auto filename = name? name: "input.jpg";
 
@@ -39,7 +39,7 @@ void ofApp::keyPressed(int key)
 		
     if (key == 'i') 
           { 
-	     cout<<"'i' has been pressed";
+	     cout<<"'i' has been pressed ";
               
                /*(B)*/
 
@@ -50,7 +50,7 @@ void ofApp::keyPressed(int key)
            }//end if
            else
             {
-				cout<<"A hey has been pressed";
+				cout<<"A hey has been pressed ";
 				
 			   }
 }
